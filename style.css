@@ -8,4 +8,22 @@ body {
 
 h1 {
     color: #8b0000;
+    font-size: 36px;
+}
+
+h2 {
+    color: #333333;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    background-color: white;
+    padding: 25px 45px;
+    border-radius: 10px;
+}
+
+li {
+    margin: 10px;
+    font-size: 18px;
 }
