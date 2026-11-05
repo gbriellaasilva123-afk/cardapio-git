@@ -4,22 +4,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Cardápio</title>
+    <title>Sabor & Mesa | Cardápio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Meu Cardápio</h1>
+    <header class="topo">
+        <a href="#" class="logo">Sabor<span>&</span>Mesa.</a>
 
-    <p>Bem-vindo ao nosso restaurante! Confira nossas opções.</p>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#contato">Contato</a>
+        </nav>
 
-    <h2>Nossos pratos</h2>
+        <a href="#cardapio" class="botao-topo">Ver pratos</a>
+    </header>
 
-    <ul>
-        <li>Pizza - R$ 35,00</li>
-        <li>Hambúrguer - R$ 25,00</li>
-        <li>Lasanha - R$ 30,00</li>
-    </ul>
+    <main>
+        <section class="inicio" id="inicio">
+            <div class="inicio-texto">
+                <span class="etiqueta">SABOR QUE MARCA MOMENTOS</span>
+
+                <h1>Uma boa comida transforma qualquer <span>momento.</span></h1>
+
+                <p>
+                    Ingredientes selecionados, receitas especiais
+                    e muito carinho em cada prato. Descubra
+                    nossas opções e escolha seu favorito.
+                </p>
+
+                <a href="#cardapio" class="botao-principal">
+                    Explorar cardápio <span>→</span>
+                </a>
+
+                <div class="detalhes">
+                    <div>
+                        <strong>03</strong>
+                        <small>Opções especiais</small>
+                    </div>
+                    <div>
+                        <strong>100%</strong>
+                        <small>Feito com carinho</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inicio-destaque">
+                <div class="destaque-card">
+                    <span class="destaque-numero">01</span>
+                    <div class="destaque-circulo">S</div>
+                    <h2>O prazer está nos detalhes.</h2>
+                    <p>Comida boa, momentos melhores.</p>
+                </div>
+                <span class="decoracao">SABOR • QUALIDADE • EXPERIÊNCIA</span>
+            </div>
+        </section>
+
+        <section class="cardapio" id="cardapio">
+            <div class="titulo-secao">
+                <div>
+                    <span class="etiqueta">ESCOLHA O SEU FAVORITO</span>
+                    <h2>Nosso cardápio</h2>
+                </div>
+                <p>Opções preparadas para deixar seu dia mais gostoso.</p>
+            </div>
+
+            <div class="pratos">
+
+                <article class="prato">
+                    <div class="prato-imagem pizza">
+                        <span>MAIS PEDIDO</span>
+                        <div class="prato-inicial">P</div>
+                    </div>
+                    <div class="prato-info">
+                        <small>CLÁSSICO DA CASA</small>
+                        <h3>Pizza</h3>
+                        <p>Uma combinação deliciosa para compartilhar bons momentos.</p>
+                        <div class="prato-final">
+                            <strong>R$ 35,00</strong>
+                            <span>01</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="prato">
+                    <div class="prato-imagem hamburguer">
+                        <span>ESPECIAL</span>
+                        <div class="prato-inicial">H</div>
+                    </div>
+                    <div class="prato-info">
+                        <small>FEITO PARA VOCÊ</small>
+                        <h3>Hambúrguer</h3>
+                        <p>Uma opção saborosa para quem aprecia um bom lanche.</p>
+                        <div class="prato-final">
+                            <strong>R$ 25,00</strong>
+                            <span>02</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="prato">
+                    <div class="prato-imagem lasanha">
+                        <span>DA CASA</span>
+                        <div class="prato-inicial">L</div>
+                    </div>
+                    <div class="prato-info">
+                        <small>RECEITA ESPECIAL</small>
+                        <h3>Lasanha</h3>
+                        <p>Uma escolha clássica, perfeita para uma refeição especial.</p>
+                        <div class="prato-final">
+                            <strong>R$ 30,00</strong>
+                            <span>03</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="contato" id="contato">
+            <div>
+                <span class="etiqueta">FALE COM A GENTE</span>
+                <h2>Vamos conversar?</h2>
+                <p>Entre em contato para tirar suas dúvidas.</p>
+            </div>
+
+            <div class="contato-dados">
+                <p><span>EMAIL</span> contato@restaurante.com</p>
+                <p><span>TELEFONE</span> (12) 99999-9999</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#" class="logo">Sabor<span>&</span>Mesa.</a>
+        <p>© 2026 Sabor & Mesa. Todos os direitos reservados.</p>
+    </footer>
 
 </body>
 </html>
